@@ -1,0 +1,355 @@
+body {
+    text-align: center;
+}
+.title-fluid {
+    text-align: left;
+    }
+
+
+.container-fluid {
+    padding: 1% 15% 30%;
+    background: url("../image/background.png") no-repeat center center / cover;
+    min-height: 100vh;
+}
+
+/* .navbackground {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbackground .navbar {
+    background-color: #0d1b3d; 
+    width: 100%;
+} */
+
+
+h1,h2,h3,h4,h5,h6 {
+   
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+
+font-size: 1.5rem;
+line-height: 1.5;
+    
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.headpara{color:#fff}
+
+.big-heading{
+    font-family: "Roboto", sans-serif; 
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+
+
+.navbar-brand {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.navbar {
+    padding: 0 0 3rem;
+}
+
+.nav-item {
+    padding: 10px;
+
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 50%;
+    position: absolute;
+    right: 5%;
+    top: 100px;
+}
+
+.company-name {
+    font-size: 2.5rem;
+}
+
+#features {
+    background-color:#fff;
+    padding: 7% 15%;
+    position: relative;
+    min-height: 100vh;
+   
+    /* z-index: 4; */
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: darkslategray;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: blue;
+}
+
+/* Product section */
+
+#products {
+    background-color: #357EC7;
+    color: #fff;
+    position: relative;
+    /* min-height: 80vh; */
+   
+  
+}
+
+
+.Our-Products{
+padding-top: 80px;
+
+}
+
+.carousel-item {
+    padding: 4% 15%;
+}
+
+.product-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+background-color: #357EC7;
+}
+
+.press-logo {
+    width: 8%;;
+    margin: 10px 10px 50px;
+}
+
+.mikrotik-logo{
+padding-bottom: 1%;
+}
+
+
+/* pricing section */
+
+#doctor {
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.doctor-column {
+    padding: 5%
+}
+
+/* cta section */
+#cta {
+    color: #fff;
+    padding: 7% 15%;
+    min-height: 100vh;
+    /* Add a semi-transparent dark overlay on the background */
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("../image/aboutwallpaper.png") no-repeat center center / cover;
+}
+
+
+
+.brand-text::before {
+    content: attr(data-full);
+}
+
+
+#contact{
+  min-height: 100vh;
+}
+
+/* footer section */
+#footer {
+    padding: 5% 15%;
+    
+}
+
+
+
+/* Make navbar links bigger, white, and yellow on hover */
+.navbar .nav-link {
+    font-size: .9rem;        /* larger text */
+    color: #ffffff !important; /* white color */
+    font-weight: 500;          /* optional: make it semi-bold */
+    transition: color 0.3s;    /* smooth hover effect */
+}
+
+.navbar .nav-link:hover {
+    color: #FFC107 !important; /* yellow on hover */
+}
+
+.combinedvh{
+  min-height: 100vh;
+  background-color: #357EC7;
+}
+
+.service_card{
+ min-height: 11rem;
+ color:#fff;
+}
+
+.service_card p { color:#fff}
+
+
+/* Doctor Cards Styling */
+.doctor-column .card {
+    border-radius: 15px;
+    border: none;
+    background: #f8fbff;
+    transition: 0.3s ease;
+}
+
+.doctor-column .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.2);
+}
+
+/* Doctor image */
+.doctor-column img {
+    border: 4px solid #007bff;
+    padding: 4px;
+}
+
+/* Doctor name */
+.doctor-column h4 {
+    color: #007bff;
+    font-weight: 600;
+}
+
+/* Specialty text */
+.doctor-column .text-muted {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.doctor-column p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Schedule */
+.doctor-column strong {
+    color: #28a745;
+}
+
+
+.main-box {
+    background-color: rgba(255, 255, 255, 0.7); /* more transparent */
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #000; /* makes all text inside black */
+}
+
+.main-box p {
+    color: #000; /* ensures headings are black too */
+}
+
+#contact-us {
+    height: 100vh; /* full viewport height */
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    text-align: center;      /* center text inside */
+}
+
+#footer {
+    background-color: #357EC7; /* nice blue */
+    color: #fff;               /* make text white */
+    text-align: center;        /* center content */
+    padding: 40px 0;           /* top and bottom spacing */
+}
+
+#footer .social-icon {
+    color: #fff;               /* make icons white */
+    font-size: 1.5rem;         /* bigger icons */
+    margin: 0 10px;            /* spacing between icons */
+    transition: 0.3s;
+}
+
+#footer .social-icon:hover {
+    color: #FFC107;            /* optional: change color on hover */
+}
+
+#footer p {
+  color: #fff;
+}
+
+
+
+
+
+
+/* -------------------------------------------------MEDIA QUERY ------------------------------ */
+
+@media (max-width: 1028px){
+h1 {
+    
+    font-size: 35px;
+}
+.title-fluid {
+text-align: center;
+}
+.title-section{
+    padding-bottom: 40px;
+}
+.product-image{
+    width: 60%;
+}
+.Our-Products{
+    padding-top: 100px;
+    }
+
+.big-heading{
+        font-size: 2rem;
+    }
+
+.title-image {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%; 
+    }
+
+.container-fluid {
+    padding: 1% 15% 90%;
+    /* padding: 0; */
+    
+}
+
+.brand-text::before {
+        content: attr(data-short);
+    }
+.press-logo{
+    width: 15%;
+    
+}
+
+
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+

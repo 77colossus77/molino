@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* BACKGROUND (CHANGEABLE) */
+body {
+  background:
+    linear-gradient(rgba(10, 60, 120, 0.9), rgba(20, 140, 200, 0.9)),
+    url("background.png") center / cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* CENTERING */
+.login-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* LOGIN CARD */
+.login-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 360px;
+  padding: 2rem 1.8rem;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 1rem;
+
+}
+
+.login-card h2 {
+  color: #1b4f8a;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* FORM */
+form {
+  text-align: left;
+}
+
+label {
+  font-size: 0.75rem;
+  color: #333;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.85rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1e90d2;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 0.65rem;
+  background: #1e40ff;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background: #1632cc;
+}
+
+/* LINKS */
+.links {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.links a {
+  color: #1e40ff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+  text-align: right;
+  padding: 0.8rem 1.2rem;
+  font-size: 0.65rem;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 400px) {
+  .login-card {
+    padding: 1.6rem 1.3rem;
+  }
+}
