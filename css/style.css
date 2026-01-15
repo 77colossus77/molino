@@ -7,8 +7,8 @@ body {
 
 
 .container-fluid {
-    padding: 1% 10% 30%;
-    background: url("../images/background.png") no-repeat center center / cover;
+    padding: 1% 15% 30%;
+    background: url("../image/background.png") no-repeat center center / cover;
     min-height: 100vh;
 }
 
@@ -107,7 +107,7 @@ p {
 
 /* Product section */
 
-#services {
+#products {
     background-color: #357EC7;
     color: #fff;
     position: relative;
@@ -158,14 +158,14 @@ padding-bottom: 1%;
 }
 
 /* cta section */
-#about {
+#cta {
     color: #fff;
     padding: 7% 15%;
     min-height: 100vh;
     /* Add a semi-transparent dark overlay on the background */
     background: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url("../images/aboutwallpaper.png") no-repeat center center / cover;
+        url("../image/aboutwallpaper.png") no-repeat center center / cover;
 }
 
 
@@ -295,21 +295,7 @@ padding-bottom: 1%;
   color: #fff;
 }
 
-.tagline {
-    font-size: 20px;      /* super small */
-    letter-spacing: 0.5px;
-    color: #fff;      /* soft gold */
-    margin-top: 2px;     /* small gap from company name */
-}
 
-.brand-text {
-    font-size: 35px;       /* adjust size as needed */
-    font-weight: 500;
-    color: white;
-    margin: 0;             /* removes default margin */
-    padding: 0;            /* removes default padding */
-    line-height: 1;        /* very tight spacing */
-}
 
 
 
